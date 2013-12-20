@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:andriod="http://schemas.andriod.com/apk/res/andriod"
+	xmlns:tools="http://schemas.andriod.com/tools"
+	andriod:layout_width="match_parent"
+	andriod:layout_height="match_parent"
+	andriod:orientation="horizontal">
+	
+	<EditText android:id="@+id/rss_url"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="@string/rss_url"
+		android:inputType="textUri" >
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/save_settings" />
+		
+</LinearLayout>
